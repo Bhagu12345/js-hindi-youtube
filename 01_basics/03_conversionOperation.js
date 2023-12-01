@@ -22,3 +22,29 @@ console.log(xyz);
 let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
+
+
+// *************** Operations ***************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+
+//---------------------------
+let str1 = "Bhagya"
+let str2 = " Barhate"
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+// if there is only 2 numbers then they will print the string only
+// About 3 number if that number starting with string then they provide string
+// if in 3 number number start without double quoyes then it will display first calulate value and then print string value
+
+console.log(+ture); //o/p = 1 (increments value)
+//console.log(true+); //o/p = display error
