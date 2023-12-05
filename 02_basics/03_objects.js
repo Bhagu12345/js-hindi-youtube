@@ -13,6 +13,15 @@ console.log(JsUser["name"])
 console.log(JsUser[mySym])
 
 JsUser.email="Bhagya@gmail.com"
-Object.freeze(JsUser)
+//Object.freeze(JsUser)
 JsUser.email="Bhagya@microsoft.com"
 console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello");
+}
+JsUser.greetingTwo = function(){
+    console.log(`Hello,${this.name}`);
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
