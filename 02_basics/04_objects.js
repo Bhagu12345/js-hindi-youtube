@@ -54,3 +54,11 @@ console.log(tinderUser.hasOwnProperty('login'));
 // output = true
 console.log(tinderUser.hasOwnProperty('login1'));
 // False (retures boolean value)
+
+const course = {
+    coursename:"js in hindi",
+    price:"999",
+    courseTeacher:"Hitesh"
+}
+const {courseTeacher} = course
+console.log(courseTeacher);
