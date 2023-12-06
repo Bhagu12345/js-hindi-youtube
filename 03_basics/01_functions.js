@@ -31,3 +31,18 @@ function loginUser(username){
     return `${username} just logged in` 
 }
 console.log(loginUser());
+
+function calculatecartprice(...num3){
+    return num3
+}
+console.log(calculatecartprice(100,200,300))
+
+const user = {
+    username:"Bhagya",
+    age:25
+}
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and age is ${anyobject.age}`);
+}
+handleobject();
+
