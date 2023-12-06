@@ -44,5 +44,18 @@ const user = {
 function handleobject(anyobject){
     console.log(`Username is ${anyobject.username} and age is ${anyobject.age}`);
 }
-handleobject();
+//handleobject(user);
+
+//Value pass throuth object in function
+handleobject({
+    username:"Upsi",
+    age: 20
+})
+
+//value pass through array in function
+const myarray = [100,200,300,400]
+function returnsecondvalue(getArray){
+    return getArray[3]
+}
+console.log(returnsecondvalue(myarray));
 
